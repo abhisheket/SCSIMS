@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script src="jquery-ui/jquery-ui.js"></script>
+
+		<title>SCSIMS</title>
+		
+		<link rel= "stylesheet" type="text/css" href= "scsims.css">
+		
+	</head>
+  
+	<body data-spy="scroll" data-target="#navbar-example" data-offset="80">
+		
+		<nav class= "navbar navbar-expand-lg navbar-light bg-light fixed-top" id= "navbar-example">
+			<a class= "navbar-brand" href="#">SCSIMS<img id= "navIcon" src= "images/logo.jpeg"></a>
+			<button class= "navbar-toggler" type= "button" data-toggle= "collapse" data-target= "#navbarNav" aria-controls= "navbarNav" aria-expanded= "false" aria-label= "Toggle navigation">
+				<span class= "navbar-toggler-icon"></span>
+			</button>
+			<div class= "collapse navbar-collapse" id="navbarNav">
+				<ul class= "navbar-nav mr-auto">
+					<li class= "nav-item">
+						<a class= "nav-link" href= "#jumbotron">Home <span class= "sr-only">(current)</span></a>
+					</li>
+					<li class= "nav-item">
+						<a class= "nav-link" href= "#about">About</a>
+					</li>
+					<li class= "nav-item">
+						<a class= "nav-link" href= "#appDownload">Download The App</a>
+					</li>
+				</ul>
+				<form class= "form-inline pull-xs-right">
+					<input class= "form-control mr-sm-2" type= "email" placeholder= "Email" aria-label="Email">
+					<input class= "form-control mr-sm-2" type= "password" placeholder= "Password" aria-label= "Password">
+					<button class= "btn btn-success my-2 my-sm-0" type= "submit">Login</button>
+				</form>
+			</div>
+		</nav>
+		
+		<div class="jumbotron" id= "jumbotron">
+			<h1 class="display-4 getBigHead getBoldText">Smart College Student <br>Information Management System</h1>
+			<p class="lead getBoldText text-dark subdisc"><br>This app takes all institutions to another level.</p>
+			<hr class="my-2"><br><br>
+			<p class= "getBoldText">Want to know more! Join our mailing list. <i class="fa fa-hand-o-down getBigHead" aria-hidden="true"></i></p>
+			
+			<form class= "form-inline">
+				<div class= "form-group">
+					<label class= "sr-only" for= "email">Email address</label>
+					<div class= "input-group">
+						<div class="input-group-prepend">
+							<div class="input-group-text">@</div>
+						</div>
+						<input type= "email" class= "form-control mr-sm-1" id= "email" placeholder= "Your email">
+					</div>
+					<button type= "submit" class= "btn btn-primary">Sign up!</button>
+				</div>
+			</form>			
+		</div>
+		
+		<div class= "container" id= "about">
+			<div class= "row d-flex justify-content-center" id= "appSummary">
+				<h1>Why this App is much important?</h1>
+				<p class= "lead">This app helps Colleges to manage data of students easily and effectively.</p>
+			</div>
+		</div>
+		
+		<div class= "container">
+			<div class="card-deck my-auto">
+				<div class="card bg-warning">
+					<img src="images/Page1.jpeg" class="card-img-top mx-auto">
+					<div class="card-body">
+						<h5 class="card-title">Simple UI</h5>
+						<p class="card-text">This app has simple UI as the users are mainly students and teachers.</p>
+						<p class="card-text"><small class="text-muted">Last updated 1 yeaer ago</small></p>
+					</div>
+				</div>
+				<div class="card bg-warning">
+					<img src="images/Page2.jpeg" class="card-img-top mx-auto">
+					<div class="card-body">
+						<h5 class="card-title">Multi-user login</h5>
+						<p class="card-text">This app is packed with multiple security features and multiple users can use the app at the same time.</p>
+						<p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+					</div>
+				</div>
+				<div class="card bg-warning">
+					<img src="images/Page3.JPG" class="card-img-top mx-auto">
+					<div class="card-body">
+						<h5 class="card-title">Simple Navigations</h5>
+						<p class="card-text">This app has several modules for different data.</p>
+						<p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class= "container" id= "appDownload">
+			<div class= "row d-flex justify-content-center">
+				<h2>Download the app!</h2>
+			</div>
+			<div class= "row d-flex justify-content-center">
+				<p class= "lead">Really, why should I download this app?</p>
+			</div>
+			<div class= "row d-flex justify-content-center">
+				<p><a href= "/apk/SCSIMS_1.0.apk" download><img id= "appStoreIcon" src= "images/AppStore.jpg"></a></p>
+			</div>
+			<footer id="footer">
+			  <p class="footer-link">© Copyright 2020 SCSIMS</p>
+			</footer>	
+		</div>
+	
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	</body>
+
+</html> 

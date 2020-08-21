@@ -1,0 +1,71 @@
+@media (min-width: 576px){
+.jumbotron{
+				background-image: url(images/Background.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 573px;
+				width: auto;
+				color: #00ff00;
+			}
+}
+.getBigHead{
+	text-align: center;
+	color: #0000ff;
+}
+.getBoldText{
+	font-weight: bold;
+}
+#navIcon{
+	margin-left: 10px;
+	height: 20%;
+	width: 20%;
+}
+#appSummary{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.card-img-top{
+	padding-top: 10px;
+	width: 200px;
+	height: 350px;
+}
+#appStoreIcon{
+	width: 200px;
+}
+#appDownload{
+	background-color: aqua;
+	padding-top: 150px;
+	margin-top: 150px;
+}
+body{
+	position: relative;
+}
+#about{
+	margin-top: 150px
+}
+#jumbotron{
+	margin-top: 55px;
+}
+#footer{
+	background-color: aqua;
+	margin-top: 150px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+@media (max-width: 576px){
+    .jumbotron{
+		background-image: url(images/Background_m.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 573px;
+		width: auto;
+		color: #00ff00;
+    }
+    .subdisc{
+        color: #faff00!important;
+    }
+	#navIcon{
+	margin-left: 5px;
+	}
+}
